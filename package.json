@@ -1,0 +1,33 @@
+{
+  "name": "mll-api",
+  "version": "1.0.0",
+  "description": "美乐乐数据API子系统",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lccitem/mll-api.git"
+  },
+  "keywords": [
+    "美乐乐",
+    "meilele",
+    "家具"
+  ],
+  "author": "lcc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lccitem/mll-api/issues"
+  },
+  "homepage": "https://github.com/Lccitem/mll-api#readme"
+}
