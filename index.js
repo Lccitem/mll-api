@@ -12,7 +12,7 @@ app.listen(5050);
 app.use(express.static(__dirname+'/pulic'));
 //配置允许程序跨域访问
 app.use(cors({
-	origin:'*',
+	origin:['http://127.0.0.1:3001','http://localhost:3001','http://127.0.0.1:3030','http://localhost:3030','http://mllapi.applinzi.com','http://mllapp.applinzi.com'],
 	credentials:true
 }));
 
